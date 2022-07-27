@@ -1,15 +1,10 @@
 import './index.css'
 import ReactDom from 'react-dom'
-
-// Na nova versão do React, não necessita importar o React para renderização de JSX
-import React from 'react'
-
-const elem = document.getElementById('root')
-const tag = <strong>Olá React!</strong>
+import Primeiro from './components/basicos/Primeiro'
 
 ReactDom.render(
     <div>
-        { tag }
+        <Primeiro></Primeiro>
     </div>, 
-    elem
+    document.getElementById('root')
 )
