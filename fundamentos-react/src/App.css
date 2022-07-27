@@ -1,0 +1,5 @@
+.app .cards{
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+}
