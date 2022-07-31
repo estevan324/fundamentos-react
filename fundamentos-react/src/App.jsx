@@ -9,12 +9,16 @@ import Familia from './components/basicos/Familia'
 import FamiliaMembro from './components/basicos/FamiliaMembro'
 import ListaAlunos from './components/repeticao/ListaAlunos'
 import ListaProdutos from './components/repeticao/ListaProdutos'
+import ParOuImpar from './components/condicional/ParOuImpar'
 
 export default () => {
     return (
         <div className='app'>
             <h1>Fundamentos React</h1>
             <div className='cards'>
+                <Card titulo='#08 - Renderização Condicional' color='#982395'>
+                    <ParOuImpar numero={4}></ParOuImpar>
+                </Card>
 
                 <Card titulo='#07 - Desafio Repetição' color='#3A9AD9'>
                     <ListaProdutos></ListaProdutos>
