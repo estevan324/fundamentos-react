@@ -10,6 +10,7 @@ import FamiliaMembro from './components/basicos/FamiliaMembro'
 import ListaAlunos from './components/repeticao/ListaAlunos'
 import ListaProdutos from './components/repeticao/ListaProdutos'
 import ParOuImpar from './components/condicional/ParOuImpar'
+import UsuarioInfo from './components/repeticao/UsuarioInfo'
 
 export default () => {
     return (
@@ -18,6 +19,8 @@ export default () => {
             <div className='cards'>
                 <Card titulo='#08 - Renderização Condicional' color='#982395'>
                     <ParOuImpar numero={4}></ParOuImpar>
+                    <UsuarioInfo usuario={{ nome: 'João'}}/>
+                    <UsuarioInfo usuario={{ nome: ''}}/>
                 </Card>
 
                 <Card titulo='#07 - Desafio Repetição' color='#3A9AD9'>
