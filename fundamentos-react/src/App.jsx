@@ -8,6 +8,7 @@ import Card from './components/layout/Card'
 import Familia from './components/basicos/Familia'
 import FamiliaMembro from './components/basicos/FamiliaMembro'
 import ListaAlunos from './components/repeticao/ListaAlunos'
+import ListaProdutos from './components/repeticao/ListaProdutos'
 
 export default () => {
     return (
@@ -15,7 +16,11 @@ export default () => {
             <h1>Fundamentos React</h1>
             <div className='cards'>
 
-                <Card titulo='#06 - Lista de Alunos' color='#00C8F8'>
+                <Card titulo='#07 - Desafio Repetição' color='#3A9AD9'>
+                    <ListaProdutos></ListaProdutos>
+                </Card>
+
+                <Card titulo='#06 - Lista de Alunos' color='#FF4C65'>
                     <ListaAlunos></ListaAlunos>
                 </Card>
 
